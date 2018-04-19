@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css?family=Cookie');
+@import url('https://fonts.googleapis.com/css?family=Sacramento');
+body
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 1.1;
+    background: linear-gradient(to right, rgb(255, 60, 190) , rgb(255, 172, 237));
+    text-align: center;
+    background-image: url(cake1.jpeg);
+    /* background-size: cover; */
+    background-position: center ;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+   
+}
+
+.icon
+{
+    color: rgb(255, 255, 255);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: lighter;
+    font-size: 1.9em;
+    
+}
+
+.icon p
+{
+    margin-top:.21em;
+    letter-spacing: 7px;
+    
+    
+}
+
+ul li 
+{
+   font-weight: bolder;
+   font-size: 1.2em;
+    margin: 15px;
+    display: inline-block;
+    
+    /* padding: 10px */
+    
+    
+}
+ul li a
+{
+    color: rgb(255, 255, 255);
+    /* border: 1px solid; */
+    padding: 10px;
+    border-radius: 15px;
+    background-color: rgba(224, 37, 183, 0.514);
+}
+.headerintro
+{
+    width: 90%;
+    margin: 0 auto;
+    background: rgba(224, 37, 184, 0.74);
+    color: rgb(250, 249, 250);
+    border: 1px soild ;
+    border-radius: 15px;
+    font-family: cursive;
+    font-weight: lighter;
+    margin-top: 30vh;
+    font-size: 1.04em
+}
+
+.quotes
+{
+    margin-top: 100px
+}
+
+.quotes p
+{
+    color: rgba(0, 0, 0, 0.651);
+    font-family: monospace;
+    font-size: 1.2em;
+    font-weight: lighter
+}
+
+@media(min-width: 769px){
+   
+    .icon
+    {
+        float: left;
+
+    }
+ul
+{
+    float: right;
+}
+
+ul li 
+{
+   font-weight: bold;
+   font-size: 1.4em;
+    margin: 15px;
+    float: left;
+    margin: 0em 25px;
+    background-color: rgba(236, 142, 223, 0.568);
+    padding: 30px 5px 10px 5px;
+    border: none;
+    background-color: none
+    
+    
+}
+
+ul li a
+{
+    color: rgb(253, 253, 253);
+    
+    background-color: unset
+    
+    
+    
+
+}
+
+.icon p
+{
+    color: rgb(139, 93, 93);
+    margin-top:.21em;
+    letter-spacing: 7px;
+    font-family: 'Sacramento', cursive;
+    
+    
+}
+
+.headerintro
+{
+    color: rgb(236, 142, 224);
+    border: none;
+    border-radius: none;
+    background: none;
+    font-size: 5.9em;
+   font-family: 'Cookie', cursive;
+   margin: 0;
+
+}
+
+.quotes p
+{
+    color: rgb(0, 0, 0);
+    font-family: 'Cookie', cursive;
+    font-size: 1.9em;
+    font-weight: bolder;
+    letter-spacing: 0.2em;
+    
+}
+    /*Clear fixes  NO CODE BELOW HERE */
+
+.clearfix::after
+{
+    display: block;
+    visibility: hidden;
+    content: "";
+    clear: both;
+}
+
+
+
+
+
+}
